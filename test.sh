@@ -27,17 +27,7 @@ case $choice in
         result=$((num1 * num2))
         echo "Multiplication = $result"
         ;;
-    4)
-        if [ "$num2" -ne 0 ]; then
-            result=$((num1 / num2))
-            echo "Division = $result"
-        else
-            echo "Error: Cannot divide by zero"
-        fi
-        ;;
-    *)
-        echo "Invalid choice"
-        ;;
+    
 esac
 
 
